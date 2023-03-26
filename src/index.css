@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  align-items: auto;
+  text-align: center;
+  background-image: url("https://slidechef.net/wp-content/uploads/2021/10/Free-Maths-Background-1024x576.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.Heading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.dimensions{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-right: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.row_1, .row_2, .row_3 {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.return_div{
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+.one_row_one, .one_row_two, .one_row_three {
+  border-style: solid;
+  border-color: black;
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
